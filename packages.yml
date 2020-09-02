@@ -1,0 +1,6 @@
+packages:
+  vip:
+    # This messages will replace %product%
+    product-name: '&a&lVIP Rank'
+  vip+:
+    product-name: '&a&lVIP&c&l+ &a&lRank'

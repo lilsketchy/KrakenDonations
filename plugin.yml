@@ -1,0 +1,8 @@
+name: KrakenDonations
+version: 1.2
+author: aglerr
+main: dev.aglerr.krakendonations.KrakenDonations
+
+commands:
+  donation:
+    aliases: [donations, donate]

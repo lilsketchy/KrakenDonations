@@ -1,0 +1,38 @@
+
+# This messages would be announced when someone
+# donated to your server.
+announcement-message:
+- ''
+- '&e&l%player_name% &7has donated!'
+- '&fProduct: &e%product%'
+- ''
+
+# Every player on the server would receive this effects
+# everytime someone donated.
+# Format: EFFECTS;MULTIPLIER;DURATION (in seconds)
+effects:
+- 'SPEED;3;30'
+- 'JUMP;5;30'
+- 'FAST_DIGGING;3;30'
+- 'NIGHT_VISION;3;30'
+
+# Every player on the server would receive this sounds
+# everytime someone donated.
+# Format: SOUNDNAME;VOLUME;PITCH
+sounds:
+- 'ENTITY_PLAYER_LEVELUP;1;1'
+- 'BLOCK_LAVA_POP;1;1'
+
+
+messages:
+  no-permission: '&cYou don''t have enough permission!'
+  reload: '&aYou have successfully reloaded the configuration!'
+  package-invalid: '&cPackage name is invalid!'
+  target-not-found: '&cTarget not found!'
+  help:
+  - '&6&lKrakenDonations - Help'
+  - ''
+  - '&6/donation &7- shows this help messages.'
+  - '&6/donation reload &7- reload the configuration.'
+  - '&6/donation send [packages] [player] &7- send the donation messages and effect to all players.'
+  - ''
